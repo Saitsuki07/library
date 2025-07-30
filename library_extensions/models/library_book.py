@@ -1,7 +1,5 @@
 from odoo import models, fields
 
-# The duplicate LibraryBookCategory class has been removed from this file.
-
 class LibraryBook(models.Model):
     _inherit = 'library.book'
     
