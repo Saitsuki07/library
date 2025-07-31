@@ -9,6 +9,7 @@ class LibraryBook(models.Model):
         required=True
     )
     
+    # Remove explicit relationship parameters
     category_ids = fields.Many2many(
         'library.book.category', 
         string='Categories'

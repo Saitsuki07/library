@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-
     <record id="library_book_view_tree_inherit" model="ir.ui.view">
         <field name="name">library.book.tree.inherit</field>
         <field name="model">library.book</field>
@@ -26,5 +25,4 @@
             </xpath>
         </field>
     </record>
-
 </odoo>
